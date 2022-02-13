@@ -25,7 +25,7 @@ screen_surface.blit(background,(0,0))
 class Bob:
     def __init__(self):
         super().__init__()
-        self.image = pygame.image.load("bob.front.1.png").convert_alpha()
+        self.image = pygame.image.load("Bob.front.1.png").convert_alpha()
         self.pos = self.image.get_rect()
         self.change_x = 0
         self.change_y = 0

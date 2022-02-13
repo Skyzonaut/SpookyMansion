@@ -53,9 +53,9 @@ class Bob(pygame.sprite.Sprite):
         if self.change_y <0:
             self.image=pygame.image.load('Bob.back.2.png').convert_alpha()
         if self.change_y>0:
-            self.image=pygame.image.load('Bob.Front.1.png').convert_alpha()
+            self.image=pygame.image.load('Bob.front.1.png').convert_alpha()
         if self.change_y==0:
-            self.image=pygame.image.load('Bob.Front.1.png').convert_alpha()
+            self.image=pygame.image.load('Bob.front.1.png').convert_alpha()
         if self.change_x<0:
             self.image=pygame.image.load ('Bob.left.1.png').convert_alpha()
         if self.change_x>0:
